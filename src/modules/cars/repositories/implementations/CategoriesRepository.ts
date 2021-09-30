@@ -1,7 +1,10 @@
 import { Category } from "../../model/Category";
-import { ICreateCategoryDTO } from "../ICategoriesRepository";
+import {
+  ICategoriesRepositories,
+  ICreateCategoryDTO,
+} from "../ICategoriesRepository";
 
-class CategoriesRepository {
+class CategoriesRepository implements ICategoriesRepositories {
   private categories: Category[];
 
   private static INSTANCE: CategoriesRepository;
