@@ -14,14 +14,16 @@ class CreateSpecifitacionUseCase {
     private specificationRepository: ISpecificationsRepository
   ) {}
 
-  execute({ name, description }: IRequest): void {
-    const specificationExists = this.specificationRepository.findByName(name);
+  async execute({ name, description }: IRequest): Promise<void> {
+    const specificationExists = await this.specificationRepository.findByName(
+      name
+    );
 
     if (specificationExists) {
       throw new Error("Specification already exists!");
     }
 
-    this.specificationRepository.create({
+    await this.specificationRepository.create({
       name,
       description,
     });
