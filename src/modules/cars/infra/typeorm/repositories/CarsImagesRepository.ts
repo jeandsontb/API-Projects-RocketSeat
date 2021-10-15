@@ -16,6 +16,8 @@ class CarsImagesRepository implements ICarsImagesRepository {
       image_name,
     });
 
+    console.log(carImage);
+
     await this.repository.save(carImage);
 
     return carImage;
