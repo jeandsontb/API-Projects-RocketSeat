@@ -1,4 +1,4 @@
-## Projeto API da trilha node RocketSeat
+## Projeto API da trilha node RocketSeat - RentX
 
 # CADASTRO DE CARRO
 
