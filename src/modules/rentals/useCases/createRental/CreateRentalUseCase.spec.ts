@@ -9,7 +9,7 @@ let createRentalUseCase: CreateRentalUseCase;
 let rentalsRepositoryInMemory: RentalsRepositoryInMemory;
 let dayJsDateProvider: DayJsDateProvider;
 
-describe("Create Rental", () => {
+describe("Create a Rental", () => {
   const dayAdd24Hours = dayjs().add(1, "day").toDate();
 
   beforeEach(() => {
