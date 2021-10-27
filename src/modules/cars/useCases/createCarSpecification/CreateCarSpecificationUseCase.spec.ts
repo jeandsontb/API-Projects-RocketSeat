@@ -7,7 +7,7 @@ let createCarSpecificationUseCase: CreateCarSpecificationUseCase;
 let carsRepositoryInMemory: CarsRepositoryInMemory;
 let specificationsRepositoryInMemory: SpecificationRepositoryInMemory;
 
-describe("Create Car Specification", () => {
+describe("Create a Car Specification", () => {
   beforeEach(() => {
     carsRepositoryInMemory = new CarsRepositoryInMemory();
     specificationsRepositoryInMemory = new SpecificationRepositoryInMemory();
