@@ -69,4 +69,5 @@ Ao realizar a devolução de um carro, este deverá ser liberado para outro alug
 Ao realizar a devolução de um carro, o usuário deverá ser liberado para outro aluguel
 Ao realizar a devolução de um carro, deverá calcular o valor total do aluguel
 Caso o horário de devolução seja superior ao horário previsto de entrega deverá ser cobrado multa proporcional as horas ou dias em atraso.
+O usuário deverá estar logado na aplicação.
 Caso haja multa deverá ser somando o valor do aluguel.
