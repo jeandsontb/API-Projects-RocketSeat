@@ -71,3 +71,9 @@ Ao realizar a devolução de um carro, deverá calcular o valor total do aluguel
 Caso o horário de devolução seja superior ao horário previsto de entrega deverá ser cobrado multa proporcional as horas ou dias em atraso.
 O usuário deverá estar logado na aplicação.
 Caso haja multa deverá ser somando o valor do aluguel.
+
+**RF**
+Deve ser possível realizar a busca de todos os alugueis para o usuário
+
+**RN**
+O usuário deve estar logado na aplicação
