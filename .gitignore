@@ -4,3 +4,4 @@ tmp/*
 .docker
 .git
 .vscode
+coverage
